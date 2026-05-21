@@ -1,0 +1,27 @@
+Fonctionnements mathématiques et étapes de l’algorithme Momentum
+Introduction
+L’algorithme Momentum est une méthode d’optimisation utilisée en apprentissage automatique. Il améliore la descente de gradient en ajoutant une inertie qui accélère l’apprentissage et réduit les oscillations.
+Principe mathématique
+Descente de gradient classique :
+W(t+1) = W(t) − η · ∇J(W(t))
+
+Momentum :
+V(t+1) = β · V(t) − η · ∇J(W(t))
+W(t+1) = W(t) + V(t+1)
+
+Avec η le taux d’apprentissage et β le coefficient de momentum.
+Étapes de l’algorithme
+1. Initialiser les poids et la vitesse.
+2. Effectuer la propagation avant.
+3. Calculer l’erreur.
+4. Calculer le gradient.
+5. Mettre à jour la vitesse.
+6. Mettre à jour les poids.
+7. Répéter jusqu’à convergence.
+Avantages
+• Convergence plus rapide.
+• Réduction des oscillations.
+• Meilleure stabilité de l’apprentissage.
+Limites
+• Sensible au choix des paramètres.
+• Peut diverger si le taux d’apprentissage est trop élevé.
