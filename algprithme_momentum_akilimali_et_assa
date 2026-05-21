@@ -1,4 +1,4 @@
-Fonctionnements mathématiques et étapes de l’algorithme Momentum
+Fonctionnements mathématiques et étapes de l’algorithme Momentum pour le groupe 2
 Introduction
 L’algorithme Momentum est une méthode d’optimisation utilisée en apprentissage automatique. Il améliore la descente de gradient en ajoutant une inertie qui accélère l’apprentissage et réduit les oscillations.
 Principe mathématique
